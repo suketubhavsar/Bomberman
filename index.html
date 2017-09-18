@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Bomberman</title>
+    <style>
+      body {
+        background: #202028;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1em;
+        text-align: center;
+      }
+      canvas {
+		background-color: gray;
+        height: 80vh;
+      }
+    </style>
+	<script src='Bomberman.js'></script>
+</head>
+<body>
+	<h1>Bomberman</h1>
+	<h2>by Suketu Bhavsar</h2>
+	<h3>Use arrow keys to move, Space key to put Bomb. Stay clear from bomb explosions and enemies. Find the hidden gate to exit to your freedom!</h3>
+	<img id="TileBorder" width="220" height="277" src="images\TileBorder.png" alt="Tile Border" style="display:none" />
+	<img id="TileGreen" width="220" height="277" src="images\TileGreen.png" alt="Tile Green" style="display:none" />
+	<img id="TileSolid" width="220" height="277" src="images\TileSolid.png" alt="Tile Solid" style="display:none" />
+	<img id="TileBrick" width="220" height="277" src="images\TileBrick.png" alt="Tile Brick" style="display:none" />
+	<img id="TileBrickBurning1" width="220" height="277" src="images\TileBrickBurning1.png" alt="Tile Brick" style="display:none" />
+	<img id="TileBrickBurning2" width="220" height="277" src="images\TileBrickBurning2.png" alt="Tile Brick" style="display:none" />
+	<img id="bomb" width="220" height="277" src="images\bombT.png" alt="Bomb" style="display:none" />
+	<img id="bombExplosionCenter" width="220" height="277" src="images\ExplosionCenter.png" alt="Bomb " style="display:none" />
+	<img id="bombExplosionHorizontal" width="220" height="277" src="images\ExplosionHorizontal.png" alt="Bomb" style="display:none" />
+	<img id="bombExplosionHorizontalEndLeft" width="220" height="277" src="images\ExplosionHorizontalEndLeft.png" alt="Bomb" style="display:none" />
+	<img id="bombExplosionHorizontalEndRight" width="220" height="277" src="images\ExplosionHorizontalEndRight.png" alt="Bomb" style="display:none" />
+	<img id="bombExplosionVertical" width="220" height="277" src="images\ExplosionVertical.png" alt="Bomb" style="display:none" />
+	<img id="bombExplosionVerticalEndTop" width="220" height="277" src="images\ExplosionVerticalEndTop.png" alt="Bomb" style="display:none" />
+	<img id="bombExplosionVerticalEndBottom" width="220" height="277" src="images\ExplosionVerticalEndBottom.png" alt="Bomb" style="display:none" />
+	<img id="PlayerEast" width="220" height="277" src="images\PlayerEastT.png" alt="Player East" style="display:none" />
+	<img id="PlayerWest" width="220" height="277" src="images\PlayerWestT.png" alt="Player West" style="display:none" />
+	<img id="EnemyRight" width="220" height="277" src="images\EnemyRightT.png" alt="Player West" style="display:none" />
+	<img id="EnemyLeft" width="220" height="277" src="images\EnemyLeftT.png" alt="Player West" style="display:none" />
+	<img id="Gate" width="220" height="277" src="images\GateTSmall.png" alt="Gate" style="display:none" />
+	<canvas id='canvas' width='612' height='400' onmousedown="canvas_onclick(canvas, event)" contextmenu="return false;" ></canvas>
+</body>
+</html>

@@ -1,0 +1,27 @@
+bomberman
+
+stage 1:
+bomberman
+baloons type 1
+hidden gate to end the stage
+solid brick blocks: cannot be distroyed
+tiles brick blocks: canbe destroyed
+hidden bonus life
+1 bomb at a time
+1 immidiate quare in all direction.
+
+music once all baloons been distroyed
+
+stage 2:
+bomberman
+baloons type 1
+baloons type 2
+hidden gate to end the stage
+solid brick blocks: cannot be distroyed
+tiles brick blocks: canbe destroyed
+1 bomb at a time
+2 immidiate quare in all direction.
+hidden double bomb, can lay 2 bombs at the same time
+
+music once all baloons been distroyed
+

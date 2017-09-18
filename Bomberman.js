@@ -430,7 +430,7 @@ function drawEnemies(){
 			}
 		}else if(bombTicking>10 && 14>bombTicking) {
 			context.globalAlpha=1/(bombTicking-10);
-			context.drawImage(imgEnemyRight, blockSize*enemies[i].pos.y,blockSize*(enemies[i].pos.x+2), blockSize,blockSize);
+			context.drawImage(imgEnemyRight, blockSize*(enemies[i].pos.x+2), blockSize*enemies[i].pos.y, blockSize,blockSize);
 			context.globalAlpha=1;
 		}
 	}

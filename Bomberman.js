@@ -428,12 +428,12 @@ function drawEnemies(){
 			}else {
 				context.drawImage(imgEnemyRight, y,x, w,h);
 			}
-		}else if(bombTicking>10 && 14>bombTicking) {
+		/*}else if(bombTicking>10 && 14>bombTicking) {
 			context.globalAlpha=1/(bombTicking-10);
 			context.drawImage(imgEnemyRight, blockSize*(enemies[i].pos.x+2), blockSize*enemies[i].pos.y, blockSize,blockSize);
 			context.globalAlpha=1;
 		}else if(bombTicking>14){
-			enemies.splice(i,1);
+			enemies.splice(i,1);*/
 		}
 	}
 }
